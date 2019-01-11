@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--  Mathjax support -->
+<!-- CDN location -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<!-- Mathjax config-->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>	
 <style>
 .container > div {
     display: inline-block;
@@ -9,9 +20,13 @@
     width: 25%;
     text-align: center;
 }
+ol {
+	width: 30%;
+	margin: auto;
+}
 </style>
 </head>
-<body>
+<body style='margin-left:150px;margin-right:150px;line-height:1.7'>
 
 <div align = 'center'>
 		<h1> "a good shoemaker" </h1>
@@ -21,10 +36,15 @@
 </div>
 <h2>
 <div class="container">
-  <div><a href = 'home.html'>Home</a></div><div><a href = 'poems.html'>Poems</a></div><div><a href = 'articles.html'>Articles</a></div><div><a href = 'music.html'>Music</a></div>
+  <div><a href = 'index.html'>Home</a></div><div><a href = 'poems.html'>Poems</a></div><div><a href = 'articles.html'>Articles</a></div><div><a href = 'music.html'>Music</a></div>
 </div>
 <hr>
 </h2>
+
+<ol>
+    <li><a href = 'articles/article_1.html'>$1 + 2 + \cdots + n = \frac{n(n+1)}{2}$</a></li>
+
+</ol>
 
 
 </body>
