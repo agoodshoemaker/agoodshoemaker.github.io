@@ -94,12 +94,12 @@ There are often multiple ways of proving the same result. Each proof offers a di
 Writing down the summation in two different ways is all it takes to arrive at the result:
 
 $$
-\begin{align}
+\begin{align*}
 S &= 1 + \ \ \ \ \ 2 \ \ \ \ \ \ \ +\ \ \cdots\ \  + n  \\
 S &= n + (n-1)\  +\ \  \cdots\ \  + 1   \\
 2S &= n(n+1)  \\
 S &= \frac{n(n+1)}{2}\\
-\end{align}
+\end{align*}
 $$
 
 ### Visual 
@@ -107,12 +107,12 @@ $$
 Consider the sum $1 + 2 + 3 + 4 + 5$. Of these five numbers, one simple yet useful observation is that $3$ is right at the middle with two numbers on either side. $2$ and $4$ are one unit away from $3$, while $1$ and $5$ are two units away from $3$. One way to visualize this is in the form of two concentric circles with radius $1$ and $2$, with $(3, 0)$ as the center. Moving our coordinate system to $(3, 0)$, we immediately see the symmetry in the problem, and the sum reduces to zero. In order to shift the coordinates, we move each element by $3$ units to the left, or subtract $3$ from each number. In general:
 
 $$
-\begin{align}
+\begin{align*}
 &S =1\ \  + 2\ \  \cdots\ \  + n\\
 &\bigg(1 - \frac{n+1}{2}\bigg)\ \ +\bigg( 2 - \frac{n+1}{2}\bigg) \  \cdots\  + \bigg(n - \frac{n+1}{2}\bigg) = 0    \\
 &S - \frac{n(n+1)}{2} = 0    \\
 &S = \frac{n(n+1)}{2}
-\end{align}
+\end{align*}
 $$
 
 
@@ -123,12 +123,12 @@ $$
 The last is an inductive proof.
 
 $$
-\begin{align}
+\begin{align*}
 S_1 &= 1  \\
 S_{n-1} &= \frac{(n-1)n}{2}  \\
 S_{n} &= S_{n-1} + n  \\
 &= \frac{(n-1)n}{2} + n \\ 
 &= \frac{n(n+1)}{2}
-\end{align}
+\end{align*}
 $$
 
