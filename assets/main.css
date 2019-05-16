@@ -55,3 +55,8 @@ blockquote{
     position: relative;
     z-index: 1;
 }
+
+figure figcaption{
+	text-align: center;
+	padding-right: 20%;
+}
