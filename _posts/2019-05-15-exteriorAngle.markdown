@@ -1,6 +1,6 @@
 ---
 layout: post
-title: External Angle Inequality
+title: Exterior Angles
 mathjax: true
 categories: Mathematics
 excerpt: This article shows how an organic approach can be adopted for mathematics instruction, a departure from the conventional pedagogic approach of the definition-theorem-proof. It tries to prove a result in elementary geometry without using the words theorem or proof.
@@ -9,7 +9,7 @@ excerpt: This article shows how an organic approach can be adopted for mathemati
 Consider the following figure. We have $\bigtriangleup ABC$ whose sides $AB$ and $CB$ have been extended into rays $AX$ and $CY$ respectively.
 
 <figure>
-	<img src="/assets/posts/2019-05-15-externalAngle/fig1.png" width="65%" height="65%" />
+	<img src="/assets/posts/2019-05-15-exteriorAngle/fig1.png" width="65%" height="65%" />
 	<figcaption> Fig-1: $\bigtriangleup\ ABC$ </figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ Is that a satisfactory definition? Let us look at the following figure to see wh
 <br><br>
 
 <figure>
-	<img src="/assets/posts/2019-05-15-externalAngle/fig2.png" width="65%" height="65%" />
+	<img src="/assets/posts/2019-05-15-exteriorAngle/fig2.png" width="65%" height="65%" />
 	<figcaption> Fig-2: Angles formed by the rays $AX$ and $CY$ </figcaption>
 </figure>
 
@@ -41,8 +41,8 @@ In other words, $\angle 1$ is an *interior angle* of the triangle. In the light 
 
 
 <figure>
-	<img src="/assets/posts/2019-05-15-externalAngle/fig3.png" width="65%" height="65%" />
-	<figcaption> Fig-3: External angle </figcaption>
+	<img src="/assets/posts/2019-05-15-exteriorAngle/fig3.png" width="65%" height="65%" />
+	<figcaption> Fig-3: exterior angle </figcaption>
 </figure>
 
 <br><br>
@@ -71,25 +71,64 @@ $$
 This is a neat observation concerning different angles of a triangle. Let us now move from symbols to words. There are two equivalent ways of writing this result:
 
 > In a triangle:
- 1. the external angle is equal to the sum of interior angles not supplementary to it.
-2. the external angle is equal to the sum of interior opposite angles.
+ 1. an exterior angle is equal to the sum of interior angles not supplementary to it.
+2. an exterior angle is equal to the sum of interior opposite angles.
 
-The above result gives us an inequality that connects the external angle and the interior opposite angles of a triangle:
+The above result gives us an inequality that connects the exterior angle and the interior opposite angles of a triangle:
 
-> In a triangle, the external angle is greater than either of the interior opposite angles.
+> In a triangle, an exterior angle is greater than either of the interior opposite angles.
 
-Note that this inequality is strict as the angles of a triangle are always positive and cannot be zero. In some problem, if you happen to notice that the external angle is equal to one of the interior opposite angles, then the object in question is a set of three colinear points forming a straight line and not a triangle. Why is that the case? Think about vertex $A$ as a movable point, and keep sliding it down until it hits line $BC$:
+Now let us return to the equality and see what more we can do with it:
+
+$$
+\angle{ABD} = \angle{BCA} + \angle{CAB}
+$$
+
+What happens when the exterior angle is equal to one of the interior angles, say $\angle A$? We get $\angle C = 0$. Isn't that absurd? How can an angle of a triangle be zero? If you look closely, you can see that the object in question is no longer a triangle but has become a straight line. To see why this happens think of vertex $A$ as a movable point and keep moving it down until it hits $BC$. At this stage, $\angle A = \angle ABD = 180^{\circ}$. We also note that the inequality that arises from this equality is strict. As long as you are talking about a triangle, the external angle will be strictly greater than either of the interior opposite angles. Refer the video below to visualize this process:
 
 <br><br>
 
 <figure>
-<video width="65%" height="65%" controls>
-  <source src="/assets/posts/2019-05-15-externalAngle/inequality.mp4" type="video/mp4">
+<video width="65%" height="65%" controls muted>
+  <source src="/assets/posts/2019-05-15-exteriorAngle/inequality.mp4" type="video/mp4">
 </video>
 <figcaption>Fig-4: Inequality to equality</figcaption>
 </figure>
 
 <br><br>
 
+Are we done? Not yet. We can ask other interesting questions. For this we need to bring the figure back into focus.
 
-Neat! That completes this post on the external angle inequality.
+<figure>
+	<img src="/assets/posts/2019-05-15-exteriorAngle/fig3.png" width="65%" height="65%" />
+	<figcaption> Fig-5: obtuse exterior angle </figcaption>
+</figure>
+
+<br><br>
+
+If you notice, $\angle ABD$ is obtuse. This means that $\angle ABC$ is acute, and it follows that $\angle ABD > \angle ABC$. So can we alter the previous inequality and state that the exterior angle is greater than all interior angels? It seems like a harmless statement, right? 
+
+<br><br>
+
+No! Consider another version of triangle $ABC$:
+
+<figure>
+	<img src="/assets/posts/2019-05-15-exteriorAngle/fig6.png" width="50%" height="50%" />
+	<figcaption> Fig-6: acute exterior angle </figcaption>
+</figure>
+
+<br>
+
+The original inequality still holds here, but the exterior angle is not greater than the adjacent angle interior to the triangle. What happened was that we followed a wrong process of reasoning when we generalized from the particular. This is like having an equilateral triangle and stating that all triangles have angles that equal $60^{\circ}$. In geometry, the figure is a guide that helps us reason about objects like lines, angles and triangles. We must be careful to own the construction and not be owned by it! But our mistake does lead us to another insight.
+
+
+> In an acute angled triangle, any exterior angle is greater than all interior angles of the triangle.
+
+In a similar vein, we can look at an isosceles triangle and come up with the following observation:
+
+> In an isosceles triangle, the exterior angle opposite to the base is twice either angle at the base.
+
+<br><br>
+
+Neat! That completes this post on the exterior angles.
+
