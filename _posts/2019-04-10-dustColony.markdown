@@ -2,7 +2,7 @@
 layout: post
 title:   Dust Colony
 category: Poems
-excerpt: This poem that breathes life into dust particles that colonize cars of lazy owners who never bother to clean it.
+excerpt: This poem breathes life into dust particles that colonize cars of lazy owners who never bother to clean it.
 ---
 
 

@@ -91,4 +91,5 @@ Note that this inequality is strict as the angles of a triangle are always posit
 
 <br><br>
 
+
 Neat! That completes this post on the external angle inequality.
