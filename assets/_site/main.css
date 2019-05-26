@@ -14,26 +14,18 @@ ul li {
 
 blockquote{
 	padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 	padding-right: 20px;
 	border-style: solid;
-    border-width: thin;
-    background-image: url("/assets/full-bloom.png");
-    background-repeat:repeat;
 }
 
 #sidebar {
   position: fixed;
   top : 0;
-  width : 18%;
+  width : 20%;
   right: 0;
   height : 100%;
   border-style: solid;
-  border-width: thin;
   text-align: center;
-  background-image: url("/assets/interlaced.png");
-  background-repeat:repeat;
 }
 
 #sidebar ul{
@@ -43,7 +35,7 @@ blockquote{
 }
 
 #title  {
-	width: 75.0%;
+	width: 79.9%;
 	position: sticky;
 	top: 0;
 	background: inherit;
@@ -56,7 +48,7 @@ blockquote{
 
 
 .content  {
-	width: 75%;
+	width: 78%;
 	left : 0;
 	margin-left: 0;
 	text-align: justify;

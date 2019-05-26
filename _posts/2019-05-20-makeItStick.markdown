@@ -69,8 +69,8 @@ This is not exactly a book review, it is more a set of notes about the book that
 - The next few sections deal with how the techniques of spacing, interleaving and variation mentioned in the previous chapters introduce desirable difficulties.
 - Elaboration and reflection are two other strategies that make learning more effortful. In reflection, you look back at what you learnt, see what went wrong, and see how things could have been done better. As a writer, you are constantly elaborating, and seeking better ways of presenting the same information or conveying the same emotion.
 - Generation is a term used to denote the effort spent to attempt a problem before looking up the solution. This kind of process makes the mind more plastic and creates the right sort of preconditioning to assimilate the solution better. Once we have attempted to solve the problem and failed, we will know where we went wrong when looking at the solution.
-- Not all difficulties are desirable. Absence of foundations in a subject is not a desirable difficulty. Fear and anxiety are other examples.
-- The author also mentions the importance of viewing failures as stepping stones of success, as indicators of areas where the learner needs to improve by redoubling his efforts.
+- Not all difficulties are desirable. Absence of a strong foundation in a subject is not a desirable difficulty. Fear and anxiety are other examples.
+- The author also mentions the importance of viewing failures as stepping stones to success, as indicators of areas where the learner needs to improve by redoubling his efforts.
 
 ## Chapter-5: Avoid illusions of knowing
 
