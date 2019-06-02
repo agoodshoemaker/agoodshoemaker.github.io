@@ -1,0 +1,106 @@
+---
+layout: post
+title: Problem-1
+mathjax: true
+categories: Problems
+---
+
+
+Let $C$ be a point on the line segment $AB$. Let $D$ be a point that doesn’t lie on the line $AB$. Let $M$ and $N$ be points on the angle bisectors of $\angle ACD$ and $\angle BCD$, respectively, such that $MN$ \|\| $AB$. Prove that the line $CD$ bisects $MN$.
+
+
+<hr>
+
+### Solution
+
+When searching for a treasure, a detailed map can take us right to the spot where it is buried. The rest is a matter of digging it out. Same is the case in solving problems in geometry. An accurate geometric figure reveals most of the clues, the rest is a question of chasing the right ones. The usual way of presenting the solution to a problem is to draw one diagram that telescopes all the steps of the construction, and use this as a visual aid in the solution. Though this method is frugal in its use of textbook space, its pedagogic motivations are questionable. Every problem in geometry offers the student an occassion to build something on paper using points, lines and angles, to convert an abstract description of a mathematical object into a concrete visual reality. This is a deterministic, sequential process and the presentation of the solution must reflect this. The elaborateness of the exposition can be done away with as the student advances in his study of geometry and becomes more fluent. But lack of detail does more harm than excess of it. An advanced learner can always skip the intervening steps, but a beginner may find it difficult to construct these steps for himself.
+
+
+1. Draw an arbitrary point $C$  on a line segment $AB$.
+
+	<figure>
+		<img src="/assets/posts/2019-06-02-problem-1/f2.png" width="65%" height="65%" />
+		<figcaption>Fig-1</figcaption>
+		<br>
+	</figure>
+
+2. Mark a point $D$ that doesn’t lie on the line $AB$.
+
+
+	<figure>
+		<img src="/assets/posts/2019-06-02-problem-1/f3.png" width="65%" height="65%" />
+		<br>
+		<figcaption>Fig-2</figcaption>
+	</figure>
+
+	The next statement in the question is this: let $M$ and $N$ be points on the angle bisectors of $\angle ACD$ and $\angle BCD$, respectively, such that $MN$ \|\| $AB$. There is a lot of detail there. Let us break it down into three simpler steps.	<br><br>
+
+3. Connect points $C$ and $D$.
+
+	<figure>
+		<img src="/assets/posts/2019-06-02-problem-1/f4.png" width="65%" height="65%" />
+		<br>
+		<figcaption>Fig-3</figcaption>
+	</figure>
+
+4. Construct the angle bisectors of $\angle ACD$ and $\angle BCD$
+
+	<figure>
+		<img src="/assets/posts/2019-06-02-problem-1/f5.png" width="65%" height="65%" />
+		<br><br>
+		<figcaption>Fig-4</figcaption>
+	</figure>
+
+5. Draw a line parallel to $AB$ and label the points where it intersects the two angle bisectors as $M$ and $N$.
+
+
+	<figure>
+		<img src="/assets/posts/2019-06-02-problem-1/f6.png" width="65%" height="65%" />
+		<br><br>
+		<figcaption>Fig-5</figcaption>
+	</figure>
+
+<br><br>
+How do we proceed from here?<br><br>
+
+The first thing is to look for something that stands out. This may be a constraint or a special construction. In this problem there are two such facts:
+
+1. $CM$ and $CN$ are bisectors of supplementary angles.
+2. $MN$ \|\| $AB$
+
+Working with the first observation:
+
+$$
+\begin{align*}
+\angle ACD + \angle BCD &= 180^{\circ}\\
+\angle ACD &= 2\ \angle MCD\\
+\angle BCD &= 2\ \angle NCD\\
+\implies 2(\angle MCD + \angle NCD) &= 180^{\circ}\\
+\implies \angle MCD + \angle NCD &=  90^{\circ}\\
+\implies \angle MCN &= 90^{\circ}
+\end{align*}
+$$
+
+$\bigtriangleup MCN$ is a right angled triangle! That is good observation. Now let us take the second point. We can write down the following relations among the angles made by the transversals $MC$ and $NC$:
+
+$$
+\begin{align*}
+\angle ACM &= \angle OMC\\
+\angle BCN &= \angle ONC
+\end{align*}
+$$
+
+Now consider the triangles $OCN$ and $ONC$. Using the above result and keeping in mind that $MC$ and $NC$ are angle bisectors, the following holds true:
+
+$$
+\begin{align*}
+&\angle OMC = \angle OCM\\
+&\angle ONC = \angle OCN\\
+&\implies OM = OC \text{, } ON = OC\\
+&\implies OM = ON
+\end{align*}
+$$
+
+Thus we have proved that $CD$ bisects $MN$!<br><br>
+
+But wait, where did we use the fact that $MCN$ is a right triangle? Well, that was a good observation that was not needed to prove the result in question. I wanted to mention it because that was a part of solving this problem. I made this observation first before proceeding to examine the parallel lines. There might be some remarkable results that you discover along the way which are of no use for solving the problem at hand. But such results must not be discarded as they might come in handy while solving some future problem.

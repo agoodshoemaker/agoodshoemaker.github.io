@@ -43,7 +43,7 @@ blockquote{
 }
 
 #title  {
-	width: 75.0%;
+	width: 78.0%;
 	position: sticky;
 	top: 0;
 	background: inherit;
@@ -56,7 +56,7 @@ blockquote{
 
 
 .content  {
-	width: 75%;
+	width: 78%;
 	left : 0;
 	margin-left: 0;
 	text-align: justify;

@@ -5,6 +5,7 @@ mathjax: true
 ---
 
 {% for category in site.categories %}
+  {% unless category contains 'Problems' %}
   <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[1] %}
@@ -13,6 +14,7 @@ mathjax: true
       {{ post.excerpt }}
     {% endfor %}
   </ul>
+  {% endunless %}
 {% endfor %}
 
 <!--<ul class="myposts">
