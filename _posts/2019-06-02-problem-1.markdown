@@ -90,7 +90,7 @@ $$
 \end{align*}
 $$
 
-Now consider the triangles $OCN$ and $ONC$. Using the above result and keeping in mind that $MC$ and $NC$ are angle bisectors, the following holds true:
+Now consider the triangles $OCM$ and $OCN$. Using the above result and keeping in mind that $MC$ and $NC$ are angle bisectors, the following holds true:
 
 $$
 \begin{align*}
