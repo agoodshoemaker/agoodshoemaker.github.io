@@ -1,5 +1,5 @@
 ---
-title: <h1> Some Problems in Elementary Geometry </h1>
+title: <h1> Problems in Elementary Mathematics </h1>
 layout: default
 mathjax: true
 categories: Problems
@@ -12,3 +12,8 @@ Let $C$ be a point on the line segment $AB$. Let $D$ be a point that doesn’t l
 
 <a href="/problems/2019/06/02/problem-1.html">Solution</a>
 
+## Problem-2
+ **(PRMO-2019)** Positive integers $x, y, z$ satisfy $xy + z = 160$. Compute the smallest value of $x + yz$. 
+ <br><br>
+
+<a href="/problems/2019/09/21/problem-2.html">Solution</a>

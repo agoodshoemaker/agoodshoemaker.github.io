@@ -71,3 +71,20 @@ figure figcaption{
 	text-align: center;
 	padding-right: 20%;
 }
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ff0000;
+  	width:40%; 
+    margin-left:25%; 
+    margin-right:25%;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}
