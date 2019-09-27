@@ -18,7 +18,7 @@ This is a nottuswaram composed by Muthuswami Dikshithar. The song uses the basic
 ## वन्दे मीनाक्षी
 
 <p style="font-size: 120%;">
-वन्दे मीनाक्षी त्वां सरसिजव्क्त्रेऽपर्णे दुर्गे <br><br>
+वन्दे मीनाक्षी त्वां सरसिजवक्त्रेपणे दुर्गे <br><br>
 
 नतसुरबृन्देऽसक्ते गुरुगुह पालिनि जलरुहचरणे<br><br>
 

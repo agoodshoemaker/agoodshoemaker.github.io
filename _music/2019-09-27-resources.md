@@ -2,7 +2,7 @@
 layout: post
 title: Repertoire
 categories: Resources
-excerpt: Songs that I find interesting on the Internet.
+excerpt: A collection of songs.
 ---
 
 
