@@ -76,9 +76,9 @@ table{
     border-collapse: collapse;
     border-spacing: 0;
     border:2px solid #ff0000;
-  	width:40%; 
-    margin-left:25%; 
-    margin-right:25%;
+  	width:90%; 
+    margin-left:5%; 
+    margin-right:5%;
 }
 
 th{

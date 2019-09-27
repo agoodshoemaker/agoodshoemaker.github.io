@@ -1,7 +1,7 @@
 ---
 layout: post
 title: துள்ளு மதவேள் (Thullu Madha Vel)
-categories: Music
+categories: Songs
 ---
 
 This is a Thiruppugazh penned by Arunagirinathar set to tune in the ragam Hamsanandhi. The lyrics were obtained from <a href = "http://www.kaumaram.com/thiru/nnt1291_u.html" target="blank">here</a>.<br><br>
