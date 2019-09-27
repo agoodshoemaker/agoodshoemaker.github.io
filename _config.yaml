@@ -2,3 +2,11 @@ name: aGoodShoemaker
 markdown: kramdown
 kramdown: 
  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+collections: 
+  notes:
+    output: true
+  problems:
+    output: true
+  music:
+    output: true
+
