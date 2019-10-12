@@ -15,12 +15,10 @@ Welcome! On this page you will find an assorted collection of articles on the fo
 
 <ul>
   {% for post in site.posts %}
-  	{% unless post.categories contains 'Problems' %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <br>
       {{ post.excerpt }}
     </li>
-    {% endunless %}
   {% endfor %}
 </ul>

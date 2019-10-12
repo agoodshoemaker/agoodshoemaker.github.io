@@ -2,7 +2,9 @@
 layout: post
 title: वन्दे मीनाक्षी (Vande Meenakshi)
 categories: Songs
+excerpt_separator: <!--more-->
 ---
+<!--more-->
 
 This is a nottuswaram composed by Muthuswami Dikshithar. The song uses the basic scale of Sankarabharanam. It is generally not accepted as a piece of art music composed in the raga because of the absence of important melodic phrases that define the raga. <br><br>
 
