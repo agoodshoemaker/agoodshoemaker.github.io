@@ -12,6 +12,12 @@ Resources that I come across on education.<br><br>
 
 | Source | Author | Nature | Link | Subject |
 | :---: | :---: | :---: | :---:|:---:|
+| A Lesson Plan for Quadrilaterals | Amie | <a href="https://amiealbrecht.com/2017/10/03/a-lesson-plan-for-quadrilaterals/" target="blank">Link</a>| Mathematical pedagogy |
+| Mahabaratha | Epified | Video | <a href="https://www.youtube.com/watch?v=KvwpF_aMgBA" target="blank">Link</a> | Technology in Education|
+| Hamlet | NerdStudy | Video | <a href="https://www.youtube.com/watch?v=rPC57q8nsQg" target="blank">Link</a> | Technology in Education |
+| How to Solve the Rubik's Cube?| TheCubicle| Video| <a href="https://www.youtube.com/watch?v=1t1OL2zN0LQ" target="blank">Link </a>| Technology in Education|
+| Respiratory system | Designmate Pvt Ltd | Video | <a href="https://www.youtube.com/watch?v=kacMYexDgHg" target="blank">Link</a>| Technology in education|
+| How the Apollo Spacecraft Works | Jared Owen | Video | <a href="https://www.youtube.com/watch?v=8dpkmUjJ8xU" target="blank">Link</a> | Technology in Education |
 | Practice | Kian Williams | Video | <a href="https://www.youtube.com/watch?v=Peg-rhcm2AA" target="blank">Link</a> | Practice; overcoming fear;<br> learning different things |
 | Fermi estimation problems | Some University | Article | <a href="http://www.math.lsa.umich.edu/WCMTC/Fermi-Questions-RCMC-Three-Levels.pdf" target="blank">Link</a> | Fermi problems |
 | Fermi estimation problems | Science Olympics | Blog | <a href="http://www.physics.uwo.ca/science_olympics/events/puzzles/fermi_questions.html" target="blank">Link</a> | Fermi problems |
