@@ -12,7 +12,9 @@ Resources that I come across on education.<br><br>
 
 | Source | Author | Nature | Link | Subject |
 | :---: | :---: | :---: | :---:|:---:|
-| A Lesson Plan for Quadrilaterals | Amie | <a href="https://amiealbrecht.com/2017/10/03/a-lesson-plan-for-quadrilaterals/" target="blank">Link</a>| Mathematical pedagogy |
+| JSXGraph | JSXGraph | Software | <a href="http://jsxgraph.uni-bayreuth.de/wp/" target="blank">Link | Technology in education|
+| Proof without words | MAA | Essay | <a href="https://www.maa.org/press/periodicals/convergence/proofs-without-words-and-beyond-proofs-without-words-20" target="blank"> Link | Technology in education|
+| A Lesson Plan for Quadrilaterals | Amie | Essay | <a href="https://amiealbrecht.com/2017/10/03/a-lesson-plan-for-quadrilaterals/" target="blank">Link</a>| Mathematical pedagogy |
 | Mahabaratha | Epified | Video | <a href="https://www.youtube.com/watch?v=KvwpF_aMgBA" target="blank">Link</a> | Technology in Education|
 | Hamlet | NerdStudy | Video | <a href="https://www.youtube.com/watch?v=rPC57q8nsQg" target="blank">Link</a> | Technology in Education |
 | How to Solve the Rubik's Cube?| TheCubicle| Video| <a href="https://www.youtube.com/watch?v=1t1OL2zN0LQ" target="blank">Link </a>| Technology in Education|

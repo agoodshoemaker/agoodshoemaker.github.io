@@ -3,7 +3,11 @@ markdown: kramdown
 collections: 
   notes:
     output: true
+  notes_mathematics:
+    output: true
   problems:
+    output: true
+  situations:
     output: true
   mathematics:
     output: true

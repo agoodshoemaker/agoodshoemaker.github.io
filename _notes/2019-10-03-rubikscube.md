@@ -10,6 +10,8 @@ This page is a record of my attempts at solving the $3 \times 3$ Rubik's cube. I
 
 | Date | Time <br> (s) |
 | :---: | :---: |
+| 13-10-2019 | 3:00.52|
+| 13-10-2019 | 02:44.96
 | 11-10-2019 | 02:47.49 |
 | 10-10-2019 | 03:52.1 |
 | 08-10-2019 | 03:55.4 |
