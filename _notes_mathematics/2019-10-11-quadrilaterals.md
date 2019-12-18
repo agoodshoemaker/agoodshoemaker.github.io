@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: simple_post
 title: Quadrilaterals
-categories: Miscellaneous
+categories: Work-in-progress
 mathjax: true
 excerpt_separator: <!--more-->
 ---
