@@ -17,6 +17,7 @@ A collection of essays, each woven around a single theme which is called a mathe
 A collection of notes on mathematics.
 
 
+
 <!--
 {% assign groups = site.mathematics | group_by: 'categories' | sort: 'name'%}
 
