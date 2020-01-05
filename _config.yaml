@@ -7,6 +7,8 @@ collections:
     output: true
   problems:
     output: true
+  problems_2020:
+    output: true
   situations:
     output: true
   mathematics:

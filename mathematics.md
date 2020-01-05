@@ -3,10 +3,13 @@ title: <h1> Mathematics </h1>
 layout: default
 ---
 
+<h2><a href="/problems_2020.html"> Problems in 2020  </a></h2>
+
+A problem a day keeps boredom at bay.
 
 <h2><a href="/problems.html"> Problems  </a></h2>
 
-A collection of problems in elementary mathematics. Some of them are drawn from mathematical olympiads.
+A repository of problems in elementary mathematics. This is a comprehensive collection of problems that includes the ones listed under the title "Problems in 2020".
 
 <h2><a href="/situations.html"> Situations </a></h2>
 
@@ -14,7 +17,8 @@ A collection of essays, each woven around a single theme which is called a mathe
 
 <h2><a href="/notes_mathematics.html"> Notes </a></h2>
 
-A collection of notes on mathematics.
+Some notes on mathematics.
+
 
 
 
