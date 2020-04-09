@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-04-09T18:59:59+05:30    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<h6 class="heading"><span class="type">Paragraph</span></h6>
+<p>We can see right away that the \(999\) digit number will be divisible by \(9\text{.}\) So let us go ahead and divide it by \(9\text{.}\) This will give us the \(999\) digit number where all digits are \(1\text{.}\) At this stage, we have the factorization:</p>
+<div class="displaymath">
+\begin{equation*}
+\underbrace{99 \cdots 99}_{999 \text{ nines}} = 9 \times \underbrace{11 \cdots 11}_{999 \text{ ones}}
+\end{equation*}
+</div>
+<p data-braille="continuation">We know that \(\underbrace{11 \cdots 11}_{999 \text{ ones}}\) is also divisible by \(9\) as the sum of its digits is \(999\) which is divisible by \(9\text{.}\) So we can go ahead and divide it by \(9\text{.}\) To keep things more tractable, let us begin by dividing \(\underbrace{11 \cdots 11}_{9 \text{ ones}}\) by \(9\text{:}\)</p>
+<div class="displaymath">
+\begin{equation*}
+\cfrac{111111111}{9} = 12345679
+\end{equation*}
+</div>
+<p data-braille="continuation">Now, if we move to the $18$ digit number:</p>
+<div class="displaymath">
+\begin{equation*}
+\cfrac{\underbrace{11 \cdots 11}_{18 \text{ ones}}}{9} = 012345679\ 012345679
+\end{equation*}
+</div>
+<p data-braille="continuation">Note that we have attached a zero at the beginning for the sake of maintaining symmetry. With this, we can quickly generalize this to the \(999\) digit number:</p>
+<div class="displaymath">
+\begin{equation*}
+\cfrac{\underbrace{11 \cdots 11}_{999 \text{ ones}}}{9} = \underbrace{012345679\ \cdots\ 012345679}_{111 \text{ blocks of } 012345679}
+\end{equation*}
+</div>
+<p data-braille="continuation">Every set of \(9\) contiguous ones contribute to one block of \(012345679\) upon division. There are \(111\) such blocks. Now, let us see if this latest quotient we have obtained is divisible by \(3\text{.}\) For that, we need to compute the digit sum:</p>
+<div class="displaymath">
+\begin{equation*}
+(0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 9) \times 111 = 37 \times 111 = 3 \times 37^2
+\end{equation*}
+</div>
+<p data-braille="continuation">We see that it is divisible by \(3\) but not by \(9\) and therefore not divisible by any power of \(3\) greater than or equal to \(2\text{.}\) So we can write:</p>
+<div class="displaymath">
+\begin{equation*}
+\underbrace{012345679\ \cdots\ 012345679}_{111 \text{ blocks of } 012345679} = 3k
+\end{equation*}
+</div>
+<p data-braille="continuation">Here \(k\) is some positive integer that is not a multiple of \(3\text{.}\) With that, we have:</p>
+<div class="displaymath">
+\begin{align*}
+\underbrace{99 \cdots 99}_{999 \text{ nines}} \amp= 9 \times \underbrace{11 \cdots 11}_{999 \text{ ones}}\\
+\amp= 9 \times 9 \times \underbrace{012345679\ \cdots\ 012345679}_{111 \text{ blocks of } 012345679}\\
+\amp= 9 \times 9 \times 3k\\
+\amp= 3^{2 + 2 + 1}k\\
+\amp= 3^5k
+\end{align*}
+</div>
+<p data-braille="continuation">Therefore, the largest positive integer \(n\) such that \(3^n\) divides the given \(999\) digit number is \(n = 5\text{.}\)</p>
+<span class="incontext"><a href="gauss_2019_problem_2.html#p-6">in-context</a></span>
+</body>
+</html>

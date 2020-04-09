@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-04-09T18:59:59+05:30    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<h6 class="heading"><span class="type">Paragraph</span></h6>
+<ol class="decimal">
+<li>If \(m = n = 17\text{,}\) we get:<div class="displaymath">
+\begin{equation*}
+\cfrac{1}{m} + \cfrac{1}{n} = \cfrac{2}{17}
+\end{equation*}
+</div>If both \(m\) and \(n\) are multiples of \(17\text{,}\) say \(m = 17a,\ n = 17b\text{,}\) such that \(a \geq 1,\ b \geq 1\text{,}\) then we have:<div class="displaymath">
+\begin{equation*}
+\cfrac{1}{m} + \cfrac{1}{n} = \cfrac{1}{17} \Bigg( \cfrac{1}{a} + \cfrac{1}{b} \Bigg) \leq \cfrac{2}{17}
+\end{equation*}
+</div>Thus we see that the both \(m\) and \(n\) cannot be multiples of \(17\) if they are to solve this equation. But it is also clear that at least one of them must be a multiple of \(17\text{.}\) So let \(n = 17k\text{.}\) Making this substitution, we get:<div class="displaymath">
+\begin{align*}
+\cfrac{1}{m} + \cfrac{1}{n} \amp= \cfrac{3}{17}\\
+\cfrac{1}{m} + \cfrac{1}{17k} \amp= \cfrac{3}{17}\\
+\cfrac{1}{m} \amp= \cfrac{3}{17} - \cfrac{1}{17k}\\
+\amp= \cfrac{3k - 1}{17k}\\
+\implies m \amp= \cfrac{17k}{3k - 1}
+\end{align*}
+</div>From this we can conclude that \(3k - 1\) must divide \(17k\text{.}\) One obvious choice is for \(3k - 1 = 17\) which gives \(k = 6\text{.}\) So a solution for \((m, n)\) is:<div class="displaymath">
+\begin{equation*}
+(m, n) = (6, 6 \times 17)
+\end{equation*}
+</div>
+</li>
+<li>If \(m = n = p = 17\text{,}\) we get:<div class="displaymath">
+\begin{equation*}
+\cfrac{1}{m} + \cfrac{1}{n} + \cfrac{1}{p} = \cfrac{3}{17}
+\end{equation*}
+</div>So, this is one obvious solution. But there are other interesting solutions as well. For finding them, we don't need to solve the system all over again. We can piggyback on the solution of the first part. First, let us write down the solution to the first part:<div class="displaymath">
+\begin{equation*}
+\cfrac{1}{6} + \cfrac{1}{6 \times 17} = \cfrac{3}{17}
+\end{equation*}
+</div>We now make use of the simple trick: multiply and divide the second term on the LHS by \(3\text{.}\) It becomes:<div class="displaymath">
+\begin{align*}
+\cfrac{1}{6} + \cfrac{1}{6 \times 17} \times \cfrac{3}{3} \amp= \cfrac{3}{17}\\
+\cfrac{1}{6} + \cfrac{1}{6 \times 3} \times \cfrac{3}{17} \amp= \cfrac{3}{17}
+\end{align*}
+</div>Now, we have a \(\frac{3}{17}\) appear on the LHS again. We just substitute it with the solution from the first part:<div class="displaymath">
+\begin{align*}
+\cfrac{1}{6} + \cfrac{1}{6 \times 3} \times \cfrac{3}{17} \amp= \cfrac{3}{17}\\
+\cfrac{1}{6} + \cfrac{1}{6 \times 3} \times \Bigg( \cfrac{1}{6} + \cfrac{1}{6 \times 17} \Bigg) \amp= \cfrac{3}{17}\\
+\cfrac{1}{6} + \cfrac{1}{6^2 \times 3} + \cfrac{1}{6^2 \times 3 \times 17}  \amp= \cfrac{3}{17}
+\end{align*}
+</div>From this we can easily read the solution in three variables:<div class="displaymath">
+\begin{equation*}
+m = 6,\ n = 3 \times 6^2,\ p = 3 \times 6^2 \times 17
+\end{equation*}
+</div>
+</li>
+</ol>
+<span class="incontext"><a href="gauss_2019_problem_1.html#p-3">in-context</a></span>
+</body>
+</html>
