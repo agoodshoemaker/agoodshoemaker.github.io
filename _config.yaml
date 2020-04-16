@@ -3,15 +3,7 @@ markdown: kramdown
 collections: 
   notes:
     output: true
-  notes_mathematics:
-    output: true
   problems:
     output: true
-  problems_2020:
-    output: true
   situations:
-    output: true
-  mathematics:
-    output: true
-  music:
     output: true

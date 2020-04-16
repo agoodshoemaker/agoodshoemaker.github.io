@@ -1,9 +1,8 @@
 ---
-title: <h1> Problems in Elementary Mathematics </h1>
-layout: default
+title: <h1> Problems</h1>
+layout: post
 mathjax: true
 categories: Problems
-header-includes: \usepackage{relsize}
 ---
 
 

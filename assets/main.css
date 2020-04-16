@@ -1,12 +1,16 @@
 
 body {
-	/*font-family: Consolas, monaco, monospace;*/
   font-family: sans-serif;
+  /*font-size: 17px;*/
 	background-color: white;
-	line-height: 1.6;
+	line-height: 1.7;
 	padding-left: 40px;
 	padding-bottom: 40px;
 }
+
+/*.MathJax {
+font-size: 1.0em !important;
+}*/
 
 a {
 	text-decoration: none;
@@ -25,8 +29,6 @@ blockquote{
   border-width: thin;
   max-width: 80%;
   background: #f2f2f2;
-    /*background-image: url("/assets/full-bloom.png");
-    background-repeat:repeat;*/
 }
 
 #sidebar {
@@ -49,7 +51,7 @@ blockquote{
 }
 
 #title  {
-	width: 70.0%;
+	width: 50.0%;
 	/*position: sticky;*/
 	top: 0;
 	background: inherit;
@@ -62,7 +64,7 @@ blockquote{
 
 
 .content  {
-	width: 70%;
+	width: 50.0%;
 	left : 0;
 	margin-left: 0;
 	text-align: justify;

@@ -1,5 +1,5 @@
 ---
-layout: simple_post
+layout: post
 title: Situation-1
 categories: Situations
 situation_index: 1001

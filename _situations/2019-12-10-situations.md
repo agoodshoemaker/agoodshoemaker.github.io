@@ -1,5 +1,5 @@
 ---
-layout: simple_post
+layout: post
 title: Mathematical situations
 categories: Situations
 situation_index: 1000

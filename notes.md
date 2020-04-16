@@ -17,7 +17,7 @@ mathjax: true
 {% assign groups = site.music | group_by: 'categories' | sort: 'name'%}
 -->
 
-{% assign groups = site.notes | group_by: 'categories' | sort: 'name' | reverse %}
+{% assign groups = site.notes_mathematics | group_by: 'categories' | sort: 'name' | reverse %}
 
 {% for group in groups %}
   <ul>
