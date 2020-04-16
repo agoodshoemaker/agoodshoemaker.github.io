@@ -1,0 +1,83 @@
+---
+layout: post
+title:  Testing CindyJS
+mathjax: true
+category: Pedagogy
+excerpt: Testing CindyJS
+---
+
+**(BMO-1-2018)**
+
+In $\bigtriangleup ABC$, $AB = AC$ with $BC$ being the longest side. $N$ is a point on $BC$ such that $BN = AB$. Let the perpendicular to $AB$ passing through $N$ intersect it at $M$. Prove that the line segment $MN$ partitions the triangle $ABC$ into two parts of equal area *and* perimeter.
+
+<!--more-->
+<hr><br>
+
+This is the diagram corresponding to the question. Line segments which are of the same measure are colored in red:
+
+<figure>
+	<img src="/assets/notes_mathematics/testing_cindy/i0.svg" width="160%" height="160%" />
+	<br>
+</figure>
+
+For a moment let us forget the diagram drawn above and think about how we would construct this diagram from scratch using ruler and compass. This is a bottom-up approach where we try to build a geometric object using the atoms of the geometry world - lines and circles.
+
+- Since we know that the triangle $ABC$ is isosceles with $BC$ as the base, first draw line segment $BC$ and the perpendicular bisector to it. Mark point $A$ on the perpendicular bisector. We want to make sure that $A$ is a fairly close to $BC$ so that $BC$ is the longest side of the triangle.
+
+<figure>
+	<img src="/assets/notes_mathematics/testing_cindy/i2.svg" width="160%" height="160%" />
+	<br>
+</figure>
+
+- Now join $AB$ and $AC$ to complete the isosceles triangle $ABC$.
+
+<figure>
+	<img src="/assets/notes_mathematics/testing_cindy/i3.svg" width="160%" height="160%" />
+	<br>
+</figure>
+
+- We need to choose a point $N$ on $BC$ such that $BN = AB$. How do we get this point? By drawing a circle centered at $B$ with radius equal to $AB$. Let us proceed to do this.
+
+<figure>
+	<img src="/assets/notes_mathematics/testing_cindy/i4.svg" width="160%" height="160%" />
+	<br>
+</figure>
+
+- With that solved, the next step is to draw a perpendicular from $N$ onto $AB$ to intersect $AB$ at $M$.
+
+<figure>
+	<img src="/assets/notes_mathematics/testing_cindy/i5.svg" width="160%" height="160%" />
+	<br>
+</figure>
+
+- Now notice that the perpendicular bisector to $BC$ intersects the circle at one more point apart from $A$. Let us mark this as $A^{'}$. Also the perpendicular to $AB$, $NM$, intersects the circle at one more point other than $N$. Let us mark this as $N^{'}$.
+
+<figure>
+	<img src="/assets/notes_mathematics/testing_cindy/i6.svg" width="160%" height="160%" />
+	<br>
+</figure>
+
+- As $BC$ is perpendicular to chord $AA^{'}$ of the circle, it is also its perpendicular bisector. Likewise $AB$ is the perpendicular bisector of $NN^{'}$. Let us now join $N^{'}$ and $A^{'}$ to $B$.
+
+<figure>
+	<img src="/assets/notes_mathematics/testing_cindy/i7.svg" width="160%" height="160%" />
+	<br>
+</figure>
+
+We now have all the ingredients to attempt a proof.
+
+- $ABA^{'}C$ is a rhombus. This is because $AA^{'}$ is the perpendicular bisector of $BC$ and $BC$ is the perpendicular bisector of $AA^{'}$.
+- It follows that $[ABC] = ABA^{'}$
+- $ABA^{'} \cong N^{'}BN$. In fact, $N^{'}BN$ can be obtained by rotating the triangle $ABA^{'}$ by angle $\angle ABC$ in the anti-clockwise direction.
+- $[BMN]$ is one half of the area of $N^{'}BN$. This along with the previous two arguments gives us $[BMN]$ is one half the area of $\bigtriangleup ABC$.
+- For the perimeter part, we first see that $AM = DN$. To see why this is true notice that chords $AA^{'}$ and $NN^{'}$ are equal and hence equidistant. Subtracting the measure of the perpendicular from the radius will give us $AM$ and $DN$ which are then equal.
+
+$$
+\begin{align*}
+BM + BN &= BM + (BD + DN)\\
+&= BM + BD + MA \\
+&= (BM + MA) + BD\\
+&= AB + BD\\
+&= \cfrac{1}{2}(AB + AC + BC)
+\end{align*}
+$$ 

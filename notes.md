@@ -5,19 +5,7 @@ mathjax: true
 ---
 
 
-<!--
-{% for post in site.notes reversed %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <br>
-    {{ post.excerpt }}
-  </li>
-{% endfor %}
-
-{% assign groups = site.music | group_by: 'categories' | sort: 'name'%}
--->
-
-{% assign groups = site.notes_mathematics | group_by: 'categories' | sort: 'name' | reverse %}
+{% assign groups = site.notes | group_by: 'categories' | sort: 'name' | reverse %}
 
 {% for group in groups %}
   <ul>
