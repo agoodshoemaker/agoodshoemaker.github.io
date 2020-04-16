@@ -20,7 +20,7 @@ The moment we are in the presence of multiplicity, we begin to seek ways of comb
 Let us look at chords which are not parallel to each other.
 
 <figure>
-	<img src="/assets/situations/situation-4/i1.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i1.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -47,7 +47,7 @@ From the last equation we can see that $h_1 - h_2$ and $l_2 - l_1$ are of opposi
 Let us use a geometric route to arrive at the last two observations:
 
 <figure>
-	<img src="/assets/situations/situation-4/i2.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i2.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -58,14 +58,14 @@ If $AB = CD$, then the two triangle $OAB$ and $OCD$ are congruent. Their altitud
 What if the chords are parallel to each other?
 
 <figure>
-	<img src="/assets/situations/situation-4/i3.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i3.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
 Now the diameter perpendicular to one of the chords will also be perpendicular to the other as the chords are parallel.
 
 <figure>
-	<img src="/assets/situations/situation-4/i4.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i4.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -78,7 +78,7 @@ This implies that this diameter is a line of symmetry for this figure. We can us
 Now there is a trapezium that is hidden in this figure. Let us join $AC$ and $BD$:
 
 <figure>
-	<img src="/assets/situations/situation-4/i8.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i8.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -95,7 +95,7 @@ This can also be framed as follows:
 What if the chords are parallel and equal? But let us frame this question differently. How can we construct a chord parallel and equal to a given chord? Let us first erect perpendiculars to $AB$ from points $A$ and $B$ and mark the points of intersection of these perpendiculars with the circle as $C$ and $D$.
 
 <figure>
-	<img src="/assets/situations/situation-4/i5.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i5.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -106,7 +106,7 @@ This construction makes $AC$ parallel to $BD$. As a result $\widehat{AB} = \wide
 Can there be any other chords which are parallel to $AB$ and equal to it? 
 
 <figure>
-	<img src="/assets/situations/situation-4/i6.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i6.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -125,7 +125,7 @@ In quadrilateral $ABDC$ we have $AB = CD$, $AC\ \ \|\| \ \  BD$ and $\angle A = 
 $EF$ happens to be a line of symmetry for the rectangle. Can we conclude that its midpoint $O$ is also the point of intersection of its diagonals?
 
 <figure>
-	<img src="/assets/situations/situation-4/i7.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i7.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -138,7 +138,7 @@ Now we can talk about the area of the rectangle. How small can it get? This is s
 The tougher question is how large can the area be?
 
 <figure>
-	<img src="/assets/problems/problem-43/i1.svg" width="80%" height="80%" />
+	<img src="/assets/problems/problem-43/i1.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -153,7 +153,7 @@ The tougher question is how large can the area be?
 Now the area of the rectangle is equal to twice the area of triangle $ABD$. This gives the area to be $AE \cdot BD$. As $AE$ is one half of the chord passing through $AE$, it will be less than one half of the diameter, the longest chord. Thus $AE < OF$. It follows that the area of triangle $BFD$ is greater than the area of triangle $ABD$. Now form the rectangle $BFDG$.
 
 <figure>
-	<img src="/assets/problems/problem-43/i2.svg" width="80%" height="80%" />
+	<img src="/assets/problems/problem-43/i2.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -165,7 +165,7 @@ It is clear that $BFDG$ is a square. Its area is $\sqrt{2} \cdot \sqrt{2} = 2$. 
 Given a chord $AB$, infinite trapeziums can be generated with $AB$ being one of the parallel sides. It would be very interesting to study the area of the trapezium as a function of the distance between the two parallel sides. Let's start with a simple case: $AB$ is a diameter of the circle.
 
 <figure>
-	<img src="/assets/situations/situation-4/i9.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i9.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -234,7 +234,7 @@ Thus we can see that $f^{'}\Bigg(\cfrac{\sqrt{3}}{2}\Bigg) = 0$. Before we can b
 - From the above two statements we can conclude that as long as $0 < x < \frac{\sqrt{3}}{2}$, the sum $\sqrt{1 - x^2} + 1 - 2x^2$ stays positive. It is zero at this critical point and negative beyond it.
 
 <figure>
-	<img src="/assets/situations/situation-4/i10.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i10.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -284,7 +284,7 @@ $$
 Now for the beautiful way in which this formula can be explained geometrically:
 
 <figure>
-	<img src="/assets/situations/situation-4/i11.svg" width="95%" height="95%" />
+	<img src="/assets/situations/situation-4/i11.svg" width="130%" height="130%" />
 	<br>
 </figure>
 

@@ -24,7 +24,7 @@ If the angles of a convex quadrilateral are in the ratio $1:2:3:4$, what type of
   <summary> Solution </summary>
 <div markdown="1">
 <figure>
-	<img src="/assets/notes/quadrilaterals/i1.svg" width="125%" height="125%" />
+	<img src="/assets/notes/quadrilaterals/i1.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -53,7 +53,7 @@ In a parallelogram $ABCD$, points $P$ and $Q$ are chosen on sides $AD$ and $BC$ 
   <summary> Solution </summary>
 <div markdown="1">
 <figure>
-  <img src="/assets/notes/quadrilaterals/i3.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i3.svg" width="130%" height="130%" />
   <br>
 </figure>
 
@@ -79,7 +79,7 @@ What is the angle made by the internal bisectors of adjacent angles of a paralle
   <summary> Solution </summary>
 <div markdown="1">
 <figure>
-	<img src="/assets/notes/quadrilaterals/i2.svg" width="125%" height="125%" />
+	<img src="/assets/notes/quadrilaterals/i2.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -110,7 +110,7 @@ Construct a kite whose diagonals have lengths $d_1$ and $d_2$.
 
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i4_0.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i4_0.svg" width="130%" height="130%" />
   <br>
 </figure>
 
@@ -128,14 +128,14 @@ Construct a kite whose diagonals have lengths $d_1$ and $d_2$.
 - Draw a line segment of length $d_1$. 
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i4_1.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i4_1.svg" width="130%" height="130%" />
   <br>
 </figure>
 
 - Construct its perpendicular bisector.
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i4_2.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i4_2.svg" width="130%" height="130%" />
   <br>
 </figure>
 
@@ -151,14 +151,14 @@ Construct a kite whose diagonals have lengths $d_1$ and $d_2$.
 </details>
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i4_3.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i4_3.svg" width="130%" height="130%" />
   <br>
 </figure>
 
 - Draw an arc of radius $d_2$ centered at $C$ to intersect the bisector at $D$. Join the points $A, B, C, D$ to get the required kite.
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i4_4.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i4_4.svg" width="130%" height="130%" />
   <br>
 </figure>
 
@@ -183,7 +183,7 @@ There are two cases to consider, depending on which of the diagonals is the perp
 **Case-1:** Diagonal $CD$ of length $d_2$ is the perpendicular bisector of diagonal $AB$ of length $d_1$.
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i4_0.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i4_0.svg" width="130%" height="130%" />
   <br>
 </figure>
 
@@ -220,7 +220,7 @@ There are two cases to consider, depending on which of the diagonals is the perp
 **Case-1:** Diagonal $CD$ of length $d_2$ is the perpendicular bisector of diagonal $AB$ of length $d_1$.
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i4_0.svg" width="125%" height="125%" />
+  <img src="/assets/notes/quadrilaterals/i4_0.svg" width="130%" height="130%" />
   <br>
 </figure>
 
@@ -268,7 +268,7 @@ Compute the sum of the exterior angles of a quadrilateral.
 <div markdown="1">
 
 <figure>
-  <img src="/assets/notes/quadrilaterals/i5.svg" width="75%" height="75%" />
+  <img src="/assets/notes/quadrilaterals/i5.svg" width="130%" height="130%" />
   <br>
 </figure>
 

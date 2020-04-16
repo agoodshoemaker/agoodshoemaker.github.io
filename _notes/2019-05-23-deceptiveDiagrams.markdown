@@ -12,7 +12,7 @@ I will present a series of geometric statements and the diagrams corresponding t
 **Statement**: In a triangle, the side opposite to the greater angle is greater.
 
 <figure>
-	<img src="/assets/notes/2019-05-23-deceptiveDiagrams/fig1.png" width="65%" height="65%" />
+	<img src="/assets/notes/2019-05-23-deceptiveDiagrams/fig1.png" width="130%" height="130%" />
 	<figcaption><b>Fig-1</b>: Deceptive diagram - 1</figcaption>
 </figure>
 

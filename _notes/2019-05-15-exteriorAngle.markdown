@@ -13,7 +13,7 @@ This article shows how an organic approach can be adopted for mathematics instru
 Consider the following figure. We have $\bigtriangleup ABC$ whose sides $AB$ and $CB$ have been extended into rays $AX$ and $CY$ respectively.
 
 <figure>
-	<img src="/assets/notes/2019-05-15-exteriorAngle/fig1.png" width="65%" height="65%" />
+	<img src="/assets/notes/2019-05-15-exteriorAngle/fig1.png" width="130%" height="130%" />
 	<figcaption> Fig-1: $\bigtriangleup\ ABC$ </figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ Is that a satisfactory definition? Let us look at the following figure to see wh
 <br><br>
 
 <figure>
-	<img src="/assets/notes/2019-05-15-exteriorAngle/fig2.png" width="65%" height="65%" />
+	<img src="/assets/notes/2019-05-15-exteriorAngle/fig2.png" width="130%" height="130%" />
 	<figcaption> Fig-2: Angles formed by the rays $AX$ and $CY$ </figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ In other words, $\angle 1$ is an *interior angle* of the triangle. In the light 
 
 
 <figure>
-	<img src="/assets/notes/2019-05-15-exteriorAngle/fig3.png" width="65%" height="65%" />
+	<img src="/assets/notes/2019-05-15-exteriorAngle/fig3.png" width="130%" height="130%" />
 	<figcaption> Fig-3: exterior angle </figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ What happens when the exterior angle is equal to one of the interior angles, say
 <br><br>
 
 <figure>
-<video width="65%" height="65%" controls muted>
+<video width="130%" height="130%" controls muted>
   <source src="/assets/notes/2019-05-15-exteriorAngle/inequality.mp4" type="video/mp4">
 </video>
 <figcaption>Fig-4: Inequality to equality</figcaption>
@@ -104,7 +104,7 @@ What happens when the exterior angle is equal to one of the interior angles, say
 Are we done? Not yet. We can ask other interesting questions. For this we need to bring the figure back into focus.
 
 <figure>
-	<img src="/assets/notes/2019-05-15-exteriorAngle/fig3.png" width="65%" height="65%" />
+	<img src="/assets/notes/2019-05-15-exteriorAngle/fig3.png" width="130%" height="130%" />
 	<figcaption> Fig-5: obtuse exterior angle </figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ If you notice, $\angle ABD$ is obtuse. This means that $\angle ABC$ is acute, an
 No! Consider another version of triangle $ABC$:
 
 <figure>
-	<img src="/assets/notes/2019-05-15-exteriorAngle/fig6.png" width="50%" height="50%" />
+	<img src="/assets/notes/2019-05-15-exteriorAngle/fig6.png" width="130%" height="130%" />
 	<figcaption> Fig-6: acute exterior angle </figcaption>
 </figure>
 

@@ -28,5 +28,5 @@ This could be verified using simple algebraic manipulations taking one inequalit
 
 
 <figure>
-	<img src="/assets/notes/inequality/i1.svg" width="125%" height="125%" />
+	<img src="/assets/notes/inequality/i1.svg" width="130%" height="130%" />
 </figure>

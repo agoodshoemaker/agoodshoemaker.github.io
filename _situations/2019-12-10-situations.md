@@ -17,7 +17,7 @@ An introduction to the framework of situations.
 Mathematics is the study of abstract patterns. What is a pattern? It is something which has a structure and is not random. For example, draw a semicircle and take any point on its circumference. Now, if you join this point to the endpoints of the diameter with two line segments, then the angle between them is a right angle. It is not just true for the particular radius we have chosen, but is valid for any arbitrary radius. Moreover, the statement is completely independent of the point chosen on the circumference. This is a surprising pattern!
 
 <figure>
-	<img src="/assets/situations/situation-0/i1.svg" width="90%" height="90%" />
+	<img src="/assets/situations/situation-0/i1.svg" width="130%" height="130%" />
 	<br>
 </figure>
 
@@ -123,7 +123,7 @@ I found myself in a situation that triggered a question in my mind. This questio
 With this prompt you could direct a movie like Cast Away with Tom Hanks as the lead. A mathematical situation is one such prompt, but instead of making movies, you make abstract patterns out of them. The framework is captured in this flowchart:
 
 <figure>	
-	<img src="/assets/situations/situation-0/i2.svg" width="90%" height="90%" />
+	<img src="/assets/situations/situation-0/i2.svg" width="130%" height="130%" />
 	<caption><center><b>The process of discovery</b></center></caption>
 	<br>
 </figure>
@@ -155,7 +155,7 @@ The initial trigger seems straightforward. How we can make a spiral using semici
 
 
 <figure>  
-  <img src="/assets/posts/2019-12-10-situations/spiral.svg" width="90%" height="90%" />
+  <img src="/assets/notes/2019-12-10-situations/spiral.svg" width="130%" height="130%" />
   <caption><center><b>A spiral of semicircles</b></center></caption>
   <br>
 </figure>
@@ -337,7 +337,7 @@ We can also think about the area between the arms of the spiral. Think about a p
 
 
 <figure>  
-  <img src="/assets/posts/2019-12-10-situations/spiral-area.svg" width="90%" height="90%" />
+  <img src="/assets/notes/2019-12-10-situations/spiral-area.svg" width="130%" height="130%" />
   <caption><center><b>The infinite road</b></center></caption>
   <br>
 </figure>
