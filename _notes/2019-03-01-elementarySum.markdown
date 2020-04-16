@@ -116,7 +116,10 @@ $$
 $$
 
 
-<img src="/assets/posts/2019-05-01-elementarySum/sum.png">
+<figure>
+	<img src="/assets/notes/2019-05-01-elementarySum/sum.png" width="100%" height="100%">
+</figure>
+
 
 ### Inductive 
 

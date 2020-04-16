@@ -15,7 +15,7 @@ While Wikipedia is an excellent reference for anything you would like to know ab
 Parallel lines are the stuff parallelograms are made of. To produce a bounded shape we need at least three lines. A triangle is the simplest such shape. If we want to get a bounded shape but using parallel lines, then we need at least four lines. Thus a parallelogram is a four-sided shape formed when two pairs of parallel lines intersect each other. 
 
 <figure>
-	<img src="/assets/posts/2019-05-21-ParallelogramFamily/fig0.png" width="65%" height="65%"/>
+	<img src="/assets/notes/2019-05-21-ParallelogramFamily/fig0.png" width="65%" height="65%"/>
 	<br><br>
 	<figcaption><b>Fig-0</b>: A parallelogram</figcaption>
 	<br>
@@ -29,7 +29,7 @@ Criss-crossing rail tracks form a parallelogram. The next time you go in a train
 Another way of saying this is that a parallelogram is the most efficient way of creating bounded shapes with parallel lines: remove one line and there is no bounded shape to talk about.  Parallelograms have a number of properties that make them delightful objects to study. Let us probe further. If we wish to do something useful with parallel lines, we need a transversal. That unlocks relations between angles that might be handy later. So let us first connect any pair of opposite vertices, say $B$ and $D$, called a diagonal of the parallelogram. This has the nice property of being a transveral for both pairs of parallel sides.
 
 <figure>
-	<img src="/assets/posts/2019-05-21-ParallelogramFamily/fig1.png" width="65%" height="65%"/>
+	<img src="/assets/notes/2019-05-21-ParallelogramFamily/fig1.png" width="65%" height="65%"/>
 	<figcaption><b>Fig-1</b>: Properties</figcaption>
 </figure>
 

@@ -24,11 +24,9 @@ This could be verified using simple algebraic manipulations taking one inequalit
 ## Construction
 
 - Draw a semicircle with diameter $a + b$.
-- 
 
 
 
 <figure>
-	<img src="/assets/notes_mathematics/inequality/i1.svg" width="95%" height="95%" />
-	<br>
+	<img src="/assets/notes/inequality/i1.svg" width="125%" height="125%" />
 </figure>

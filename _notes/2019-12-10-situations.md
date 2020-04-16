@@ -154,7 +154,7 @@ The initial trigger seems straightforward. How we can make a spiral using semici
 
 
 <figure>  
-  <img src="/assets/posts/2019-12-10-situations/spiral.svg" width="90%" height="90%" />
+  <img src="/assets/notes/2019-12-10-situations/spiral.svg" width="90%" height="90%" />
   <caption><center><b>A spiral of semicircles</b></center></caption>
   <br>
 </figure>
@@ -336,7 +336,7 @@ We can also think about the area between the arms of the spiral. Think about a p
 
 
 <figure>  
-  <img src="/assets/posts/2019-12-10-situations/spiral-area.svg" width="90%" height="90%" />
+  <img src="/assets/notes/2019-12-10-situations/spiral-area.svg" width="90%" height="90%" />
   <caption><center><b>The infinite road</b></center></caption>
   <br>
 </figure>
