@@ -27,8 +27,8 @@ $$
 You add every possible number that has at most $100$ digits, and that includes $80$-digit monsters like this:
 
 $$
-9109348510918330985340685069831234116039824238939852396865039847529834236475  
-398463
+9109348510918330985340685069831234116039\\
+824238939852396865039847529834236475398463
 $$
 
 To simplify the computation let us add the next number in the series and compute this sum first:

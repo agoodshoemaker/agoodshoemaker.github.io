@@ -1,6 +1,6 @@
 ---
 title: <h1> Problems</h1>
-layout: post
+layout: default
 mathjax: true
 categories: Problems
 ---
