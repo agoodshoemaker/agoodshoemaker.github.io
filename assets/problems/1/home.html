@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Problem-1</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #CSConsole {
+            background-color: #FAFAFA;
+            border-top: 1px solid #333333;
+            bottom: 0px;
+            height: 200px;
+            overflow-y: scroll;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="http://cinderella.de/CindyJS/latest/Cindy.js"></script>
+
+    <script type="text/javascript">
+createCindy({ 
+	scripts: "cs*", 
+	defaultAppearance: { fontFamily: "sans-serif", lineSize: 1, pointSize: 5.0, textsize: 12.0 }, 
+	angleUnit: "°", 
+	geometry: [ 
+		{ name: "A", type: "Free", pos: [ -0.938388625592417, -4.0, -0.30239832487669693 ], color: [ 1.0, 0.0, 0.0 ], labeled: true, textsize: 30.0 }, 
+		{ name: "B", type: "Free", pos: [ 4.0, 2.6090392729310525, -2.3104630315610053 ], color: [ 1.0, 0.0, 0.0 ], labeled: true, textsize: 30.0 }, 
+		{ name: "C", type: "Free", pos: [ 4.0, -0.30158730158730157, 0.2531985974165994 ], color: [ 1.0, 0.0, 0.0 ], labeled: true, textsize: 30.0 }, 
+		{ name: "a", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "A", "B" ], textsize: 30.0, size: 3 }, 
+		{ name: "b", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "B", "C" ], textsize: 30.0, size: 3 }, 
+		{ name: "c", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "C", "A" ], textsize: 30.0, size: 3 }, 
+		{ name: "D", type: "Mid", color: [ 1.0, 0.0, 0.0 ], args: [ "B", "C" ], labeled: true, textsize: 30.0 }, 
+		{ name: "d", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "A", "D" ], textsize: 30.0, size: 3 }, 
+		{ name: "E", type: "PointOnSegment", pos: [ 0.14695067108034526, -4.0, -1.1057542624058094 ], color: [ 1.0, 0.0, 0.0 ], args: [ "a" ], labeled: true, textsize: 30.0 }, 
+		{ name: "e", type: "Parallel", color: [ 0.0, 0.0, 1.0 ], args: [ "b", "E" ], visible: false, textsize: 30.0, size: 3 }, 
+		{ name: "F", type: "Meet", color: [ 1.0, 0.0, 0.0 ], args: [ "c", "e" ], labeled: true, textsize: 30.0 }, 
+		{ name: "G", type: "Meet", color: [ 1.0, 0.0, 0.0 ], args: [ "d", "e" ], labeled: true, textsize: 30.0 }, 
+		{ name: "f", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "E", "F" ], textsize: 30.0, size: 3 } ], 
+	ports: [ 
+		{ id: "CSCanvas", width: 1366, height: 565, transform: [ { visibleRect: [ -4.1218664096058415, 14.716473606919717, 38.69539226356207, -2.99344670811679 ] } ], background: "rgb(254,254,254)" } ], 
+	cinderella: { build: 1835, version: [ 2, 9, 1835 ] } });
+    </script>
+</head>
+<body>
+    <canvas id="CSCanvas"></canvas>
+</body>
+</html>

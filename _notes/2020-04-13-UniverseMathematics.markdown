@@ -37,3 +37,13 @@ excerpt: The seed-idea for creating a self-contained mathematical universe.
 - Use knowls to hold metadata concerning problems and concepts. Let these come right at the end of the problem or concept after an underline. There could also be knowl in the beginning for stating the pre-requisites. These pre-requisites may be concepts or other problems. 
 - While writing up the solution to a problem, it is best not to worry about the metadata. Populating the metadata is best left while connecting nodes. One exception could be the source from which the problem was obtained.
 - Don't upload orphan problems, i.e., problems which are unsolved, especially those for which you don't know the solution. It is better to add problems for which the solution is properly known.
+
+### Other considerations
+
+- Path must have separate page with TOC or graph
+- Use of back button must be the only way to get back to the TOC
+- In a given node, all neighbors must open in new tabs
+- Absence of next button or other hyperlinks $\implies$ increased focus on the current node
+- Should the solution be a knowl or should it be a separate node
+- For better experience, each path must be split into as many smaller paths as possible. This will also make the whole project highly modular.
+- For each node in the TOC page of a path, there must be some code or marker that is **browser aware** which will keep track of the progress for a student in that path. This could be a simple color scheme like RYG.
