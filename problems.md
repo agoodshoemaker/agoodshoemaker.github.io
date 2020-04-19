@@ -10,9 +10,11 @@ categories: Problems
 
 {% for post in sortedPosts %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+  	<a href="{{ post.url }}">Problem-{{post.problem_id}}</a>
     <br>
-    {{ post.excerpt }}
-    <br><br>
+    {% assign temp = post.excerpt | remove: "<b>Problem</b>:" %}
+	{% assign excerpt = temp | remove: "<hr>" %}
+	{{excerpt}}
+    <br>
   </li>
 {% endfor %}
