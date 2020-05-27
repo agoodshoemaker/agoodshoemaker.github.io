@@ -4,6 +4,8 @@ layout: default
 mathjax: true
 ---
 
+Works best when viewed on Chrome.<br><br>
+
 
 There are currently three separate categories:
 
@@ -18,3 +20,4 @@ There are currently three separate categories:
 		<a href="/notes" target="blank">Notes</a>: A place to note down thoughts related to mathematics and mathematics education.
 	</li>
 </ul>
+
