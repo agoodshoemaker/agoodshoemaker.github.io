@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notes",
+    "section": "",
+    "text": "For thyself, it is greater to be a good shoemaker than a luxurious and incompetent king - Sri Aurobindo."
+  },
+  {
+    "objectID": "linear_algebra/concepts/matrices.html",
+    "href": "linear_algebra/concepts/matrices.html",
+    "title": "Matrices",
+    "section": "",
+    "text": "Special matrices\nDiagonal matrix\nA square matrix \\(D\\) is a diagonal matrix if all non-diagonal entries are zero. Any general \\(3 \\times 3\\) diagonal matrix would take this form: \\[\nD = \\begin{bmatrix}\na_{11} & 0 & 0\\\\\n0 & a_{22} & 0\\\\\n0 & 0 & a_{33}\n\\end{bmatrix}\n\\] Lower triangular matrix\nA square matrix \\(L\\) is a lower triangular matrix if all entries above the main diagonal are zero. Any general \\(3 \\times 3\\) diagonal matrix would take this form: \\[\nD = \\begin{bmatrix}\na_{11} & 0 & 0\\\\\n0 & a_{22} & 0\\\\\n0 & 0 & a_{33}\n\\end{bmatrix}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/concepts/subspaces.html",
+    "href": "linear_algebra/concepts/subspaces.html",
+    "title": "Subspaces",
+    "section": "",
+    "text": "Definition\nGiven a vector space \\(V\\), a subset \\(U\\) of \\(V\\) is a subspace if it is a vector space with respect to the addition and scalar multiplication operations inherited from \\(V\\).\n\n\nExamples\n\n\\(\\{0\\}\\) and \\(V\\) are subspaces of every vector space \\(V\\) and are therefore trivial examples.\nNon-trivial subspaces of \\(\\mathbb{R}^{2}\\) include all lines passing through the origin.\nNon-trivial subspaces of \\(\\mathbb{R}^{3}\\) include all lines and planes passing through the origin.\n\n\n\nAlgorithm\nTo determine if a subset \\(U\\) of \\(V\\) is a vector space, perform these three checks:\n\nCheck if \\(0 \\in U\\). Every vector space should have at least the zero element.\nFor arbitrary \\(u, v \\in U\\) and \\(a \\in \\mathbb{R}\\), check if:\n\n\\(u + v \\in U\\)\n\\(av \\in U\\)\n\nIf all three checks are successful, then \\(U\\) is a subspace of \\(V\\). \\(U\\) is not a subspace of \\(V\\) even if one of these three checks fails.\n\nFor example, let \\(U = \\{x + y + z = 0\\ |\\ x, y, z \\in \\mathbb{R}^3\\} \\subset V\\). \\(U\\) is a subspace of \\(\\mathbb{R}^{3}\\) as:\n\n\\((0, 0, 0) \\in U\\)\nLet \\((x_1, y_1, z_1) \\in U\\) and \\((x_2, y_2, z_2) \\in U\\), then we know that \\(x_1 + y_1 + z_1 = x_2 + y_2 + z_2 = 0\\). From this, we can infer:\n\n\\((x_1 + x_2) + (y_1 + y_2) + (z_1 + z_2) = 0\\) which implies \\((x_1, y_1, z_1) + (x_2, y_2, z_2) \\in U\\)\n\\(ax_1 + ay_1 + az_1 = 0\\) which implies \\(a(x_1, y_1, z_1) \\in U\\)"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#vector-spaces",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#vector-spaces",
+    "title": "Vector Spaces",
+    "section": "Vector Spaces",
+    "text": "Vector Spaces\n\\[\n(V, F), (+, .)\n\\]\n\n\\[\n\\begin{aligned}\n& x + (y + z) = (x + y) + z\\\\\\\\\n& x + y = y + x\\\\\\\\\n& x + 0 = x\\\\\\\\\n& x + (-x) = 0\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n& 1x = x\\\\\\\\\n& (ab)x = a(bx)\\\\\\\\\n& (a + b)x = ax + bx\\\\\\\\\n& a(x + y) = ax + ay\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#vector-spaces-examples",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#vector-spaces-examples",
+    "title": "Vector Spaces",
+    "section": "Vector Spaces | Examples",
+    "text": "Vector Spaces | Examples\n\n\n\\(\\mathbb{R}\\)\n\\(\\mathbb{R}^2\\)\n\\(\\mathbb{R}^3\\)\n\\(\\mathbb{R}^n\\)\n\\(\\mathbb{R}^{m \\times n}\\)\nAll polynomials of degree at most \\(2\\)\nAll real-valued continuous functions on the interval \\([0, 1]\\)"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#vector-spaces-examples-polynomials",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#vector-spaces-examples-polynomials",
+    "title": "Vector Spaces",
+    "section": "Vector Spaces | Examples | Polynomials",
+    "text": "Vector Spaces | Examples | Polynomials\n\n\n\\(V\\): all polynomials of degree at most \\(2\\)\n\n\\(x^2\\)\n\\(x^2 - 3x + 4\\)\n\\(x^3 + x\\)\n\\(x\\)\n\\(0\\)\n\n\n\n\n\n\\(V\\): all polynomials of degree at most \\(2\\)\n\n\\(x^2 \\in V\\)\n\\(x^2 - 3x + 4 \\in V\\)\n\\(x^3 + x \\notin V\\)\n\\(x \\in V\\)\n\\(0 \\in V\\)\n\n\n\n\n\\((p_1x^2 + q_1 x + r_1) + (p_2 x^2 + q_2x + r_2) \\\\= (p_1 + p_2)x^2 + (q_1 + q_2)x + (r_1 + r_2)\\)\n\n\n\\(c(px^2 + qx + r) = (cp)x^2 + (cq)x + (cr)\\)"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#subspaces",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#subspaces",
+    "title": "Vector Spaces",
+    "section": "Subspaces",
+    "text": "Subspaces\n\n\nConsider \\(\\mathbb{R}^2\\)\n\\(U = \\{(x, x)\\ |\\  x,y\\in \\mathbb{R}\\}\\)\n\\(U\\) is a subspace of \\(\\mathbb{R}^2\\)\n\n\\((0, 0) \\in U\\)\n\\((x, x) \\in U \\text{ and } (y, y) \\in U\\)\n\n\\((x + y, x + y) \\in U\\)\n\\((cx, cx) \\in U\\)"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-two-vectors-geometric",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-two-vectors-geometric",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Two Vectors | Geometric",
+    "text": "Linear Dependence | Two Vectors | Geometric"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-two-vectors-algebraic",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-two-vectors-algebraic",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Two Vectors | Algebraic",
+    "text": "Linear Dependence | Two Vectors | Algebraic\nTwo vectors \\(u\\) and \\(v\\) are linearly dependent if one is a scalar multiple of the other: \\[\nu = cv \\quad \\text{ or } \\quad v = cu\n\\]\n\n\n\n\n\\[\nv = 2u\n\\]\n\n\n\\[\n\\boxed{2u + (-1) v = 0}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-three-vectors",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-three-vectors",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Three vectors",
+    "text": "Linear Dependence | Three vectors\n\n\n\n\n\\[\nu = \\begin{bmatrix}\n1\\\\\n0\n\\end{bmatrix}, v = \\begin{bmatrix}\n0\\\\\n1\n\\end{bmatrix}, w = \\begin{bmatrix}\n2\\\\\n3\n\\end{bmatrix}\n\\]\n\n\n\\[\nw = 2u + 3v\n\\]\n\n\n\\[\n\\boxed{2u + 3v + (-1) w=0}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-combination",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-combination",
+    "title": "Vector Spaces",
+    "section": "Linear Combination",
+    "text": "Linear Combination\n\nGiven vectors \\(\\{v_1, \\cdots, v_n\\}\\) and scalars \\(c_1, \\cdots, c_n\\) the following is a linear combination:\n\n\n\\[\n\\large \\boxed{c_1 v_1 + \\cdots + c_n v_n}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-n-vectors",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-n-vectors",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | \\(n\\) vectors",
+    "text": "Linear Dependence | \\(n\\) vectors\n\n\\(S = \\{v_1, \\cdots, v_n\\}\\) is linearly dependent if we can find scalars \\(c_1, \\cdots, c_n\\) such that:\n\n\\(c_1 v_1 + \\cdots + c_n v_n = 0\\)\n\\(c_i \\neq 0\\) for at least one \\(i\\)\n\n\n\nIf \\(S\\) is linearly dependent with \\(c_k \\neq 0\\), then: \\[\nv_k = \\left(\\cfrac{-c_1}{c_k}\\right) v_1 + \\cdots + \\left(\\cfrac{-c_{k - 1}}{c_k}\\right) v_{k - 1} + \\left(\\cfrac{-c_{k + 1}}{c_k}\\right) v_{k + 1} + \\cdots + \\left(\\cfrac{-c_n}{c_k}\\right) v_n\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-examples",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-dependence-examples",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Examples",
+    "text": "Linear Dependence | Examples\n\n\\[\n\\begin{aligned}\nx &= (1, 2, -1, 4)\\\\\\\\\ny &= (0, 1, 3, 1)\\\\\\\\\nz &= (1, 3, 2, 5)\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n&z = x + y\\\\\\\\\n& \\implies x + y + (-1)z = 0\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-independence",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-independence",
+    "title": "Vector Spaces",
+    "section": "Linear Independence",
+    "text": "Linear Independence\n\n\\(S = \\{v_1, \\cdots, v_n\\}\\) is linearly independent if it is not linearly dependent (OR)\n\n\n\\[\n\\large\\boxed{c_1v_1 + \\cdots + c_n v_n = 0 \\implies c_1 = \\cdots = c_n = 0}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/presentations/Vector_Spaces.html#linear-independence-examples",
+    "href": "linear_algebra/presentations/Vector_Spaces.html#linear-independence-examples",
+    "title": "Vector Spaces",
+    "section": "Linear Independence | Examples",
+    "text": "Linear Independence | Examples\n\n\\(S = \\{(1,0,0), (0, 1, 0), (0, 0, 1)\\}\\)\n\n\n\\[\n\\begin{aligned}\n&c_1(1,0,0) + c_2(0, 1, 0) + c_3(0, 0, 1) = (0, 0, 0)\\\\\\\\\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n&c_1(1,0,0) + c_2(0, 1, 0) + c_3(0, 0, 1) = (0, 0, 0)\\\\\\\\\n&(c_1, c_2, c_3) = (0, 0, 0)\\\\\\\\\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n&c_1(1,0,0) + c_2(0, 1, 0) + c_3(0, 0, 1) = (0, 0, 0)\\\\\\\\\n&(c_1, c_2, c_3) = (0, 0, 0)\\\\\\\\\n&\\implies c_1 = c_2 = c_3 = 0\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "linear_algebra/concepts/linear_dependence_independence.html",
+    "href": "linear_algebra/concepts/linear_dependence_independence.html",
+    "title": "Linear Dependence and Independence",
+    "section": "",
+    "text": "Definition\nLinear combination\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). If \\(a_1, \\cdots, a_n\\) are scalars, then the following expression is called a linear combination: \\[\na_1 v_1 + \\cdots + a_n v_n\n\\] Linear dependence\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). \\(S\\) is said to be linearly dependent if we can find scalars \\(a_1, \\cdots, a_n\\), with at least one \\(a_i \\neq 0\\) such that: \\[\na_1 v_1 + \\cdots + a_nv_n = 0\n\\] Linear independence\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). \\(S\\) is said to be linearly independent if for every set of scalars \\(a_1, \\cdots, a_n\\): \\[\na_1v_1 + \\cdots + a_n v_n = 0 \\implies a_1 = \\cdots = a_n = 0\n\\]\n\n\nExamples\n\n\\(\\{(1, 2), (2, 4)\\}\\) is linearly dependent in \\(\\mathbb{R}^{2}\\).\n\\(\\{(1, 0, 0), (0, 1, 0), (0, 0, 1)\\}\\) is linearly independent in \\(\\mathbb{R}^{3}\\).\n\n\n\nUseful results\n\nIf \\(0 \\in S\\) then \\(S\\) is linearly dependent.\nIf \\(S = \\{u\\}\\) with \\(u \\neq 0\\), then \\(S\\) is linearly independent.\nIf \\(S = \\{u, cu\\}\\) is linearly dependent where \\(c \\in \\mathbb{R}\\).\nIf \\(S\\) is linearly dependent, then every superset of \\(S\\) is linearly dependent.\nIf \\(S\\) is linearly independent, then every subset of \\(S\\) is linearly independent.\n\n\n\nAlgorithm\nGiven a set of vectors, one way to determine linear (in)dependence of a set \\(S\\) is as follows:\n\nAdd each vector of \\(S\\) as the row of a matrix. Call the matrix \\(A\\).\nObtain the RREF of \\(A\\). Call this matrix \\(R\\).\nIf \\(R\\) has no zero rows, then \\(S\\) is linearly independent. If \\(R\\) has a zero row, then \\(S\\) is linearly dependent."
+  },
+  {
+    "objectID": "linear_algebra/concepts/vector_spaces.html",
+    "href": "linear_algebra/concepts/vector_spaces.html",
+    "title": "Vector spaces",
+    "section": "",
+    "text": "Definition\nAddition and Scalar multiplication\nGiven a set \\(V\\), we define two operations:\n\nAddition: for every pair of elements \\(u, v \\in V\\), we have \\(u + v \\in V\\)\nScalar multiplication: for every \\(v \\in V\\) and \\(a \\in \\mathbb{R}\\), we have \\(av \\in V\\).\n\nWe call elements of \\(V\\) vectors and elements of \\(\\mathbb{R}\\) scalars. Both addition and scalar multiplication can be thought of as functions. Addition maps two elements in \\(V\\) to another element in \\(V\\). Scalar multiplication takes an element in \\(V\\) and an element in \\(\\mathbb{R}\\) and maps it to an element in \\(V\\).\nVector space\nA vector space is a set \\(V\\) along with the operations of addition and scalar multiplication that satisfy the following properties. In all these properties \\(u, v, w\\) are arbitrary vectors in \\(V\\) and \\(a, b\\) are scalars in \\(\\mathbb{R}\\):\n\ncommutativity\n\n\\(u + v = v + u\\)\n\nassociativity\n\n\\((u + v) + w = u + (v + w)\\)\n\\((ab)v = a(bv)\\)\n\nadditive identity\n\nthere exists a \\(0 \\in V\\) such that \\(v + 0 = v\\) for every \\(v \\in V\\)\n\nadditive inverse\n\nfor every \\(v \\in V\\), there exists a vector \\(-v \\in V\\) such that \\(v + (-v) = 0\\)\n\nmultiplicative identity\n\n\\(1v = v\\) for all \\(v \\in V\\)\n\ndistributive properties\n\n\\(a(u + v) = au + av\\)\n\\((a + b)v = av + bv\\)\n\n\nNote: The above definition is for a real vector space. When dealing with complex vector spaces, replace \\(\\mathbb{R}\\) with \\(\\mathbb{C}\\).\n\n\nExamples\n\n\\(\\mathbb{R}^{n}\\) with the usual addition and scalar multiplication operations\n\n\\(\\mathbb{R}^{2}\\) - 2d plane\n\\(\\mathbb{R}^3\\) - 3d space\n\n\\(\\mathbb{M}_{m \\times n}(\\mathbb{R})\\), the set of all real matrices of dimensions \\(m \\times n\\) with the usual rules of addition and scalar multiplication\n\\(\\mathcal{P}_2(\\mathbb{R})\\), the set of all polynomials with real coefficients with degree at most \\(2\\)\n\\(\\mathcal{F}(X, \\mathbb{R})\\), the set of all real valued functions on the set \\(X\\)\n\n\n\nReferences\nLinear Algebra Done Right, Sheldon Axler"
+  },
+  {
+    "objectID": "learning/process.html",
+    "href": "learning/process.html",
+    "title": "Process",
+    "section": "",
+    "text": "There are six steps in the learning process. Each step is associated with a “learning head”. The diagram given below represents a screenshot of the learning process.\n\n\nRead\n\nPassively engage with the content. Do not target deep understanding. At the same time, ensure that you have a reasonable understanding of what the content is trying to convey. This is the first “learning head” in the learning process and will always be ahead of all other heads.\nReading content in advance gives some sort of scaffolding for the mind. The content is let to marinate in the subconscious mind. When a concept is taken up for study (next step), the mind may be better prepared to understand the concept.\n\nStudy\n\nThis is the step where you actively engage with the content. In the first pass over the content, try to understand what is being conveyed. Close the book and try to recall every detail of what has been studied. This qualifies as immediate recall. If the recall is successful, continue with the next topic. If not, go through a second pass of the content.\nImmediate recall is a proxy for understanding. If you are not able to completely recall what you have just studied, it shows that you have not understood it properly.\nStudy forms the second head in the process. This will be behind the read-head and will always try to play the catch-up game. As your concentration increases, this step may be subsumed in the reading step. But do not assume that this will happen any time soon. It might take several years of dedicated study before anything like this happens.\n\nWrite\n\nUnderstanding is only part of the learning process. It is good enough to ensure short-term recall. The first step to ensure long-term recall is to take notes or to write down what you have understood.\nWhen you are able to write about something in your own words in as clear a language as possible, you have understood it quite well.\nMake your notes as atomic as possible. Stick to markdown for now. Let there be a folder for each subject. Dump all the notes for that subject in into that folder.\nGive a good title for each note.\n\nSolve\n\nSolve the exercise problems at the back of each chapter/section. Don’t try to solve every single problem. Try to solve as many as you can.\nDo not look at the solution immediately.\n\nWrite\n\nWrite down the solutions to these problems meticulously. Writing down the solution might expose gaps in the solution process.\n\nEmbed\n\nUse a spaced repetition tool like Anki to embed the content you have learnt into your long-term memory.\nLet this step happen only after you have spent enough time with the content. Ankification of a topic should start only after you have written notes on it and solved at least a couple of problems on it.\nPremature Ankification can be a problem since you will be reviewing these cards quite often. You only want to remember the best possible representation of a concept. “You are what you remember.”\n\n\nThis learning process should be used to master the entire learning resource. This is a local behaviour. Once this is complete or nears completion, you can move on to the global process.\n\nGraph\n\nAfter covering several topics, start constructing a graph that maps concepts.\nThis should be your own map that emerges from your understanding of the content.\n\nIntuit\n\nIntuition will kick in slowly after you have spent a sufficient amount of time with the content.\nThis is the highest form of learning.\n\n\nEach pointer will have a temporal dependence on other pointers. But each pointer’s relationship with the content is linear. For example, reading will proceed sequentially, one topic after the other. Likewise, problem solving will proceed sequentially, one problem after the other in each topic that has already been studied."
+  }
+]
