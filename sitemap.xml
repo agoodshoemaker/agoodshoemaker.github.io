@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://agoodshoemaker.github.io/notes/index.html</loc>
-    <lastmod>2023-10-29T06:58:04.248Z</lastmod>
+    <loc>https://agoodshoemaker.github.io/notes/note_0001.html</loc>
+    <lastmod>2023-12-31T15:44:26.471Z</lastmod>
   </url>
   <url>
-    <loc>https://agoodshoemaker.github.io/notes/linear_algebra/concepts/matrices.html</loc>
-    <lastmod>2023-10-29T06:58:03.540Z</lastmod>
+    <loc>https://agoodshoemaker.github.io/music.html</loc>
+    <lastmod>2023-12-31T15:44:25.819Z</lastmod>
   </url>
   <url>
-    <loc>https://agoodshoemaker.github.io/notes/linear_algebra/concepts/subspaces.html</loc>
-    <lastmod>2023-10-29T06:58:02.904Z</lastmod>
+    <loc>https://agoodshoemaker.github.io/music/song_0001.html</loc>
+    <lastmod>2023-12-31T15:44:25.299Z</lastmod>
   </url>
   <url>
-    <loc>https://agoodshoemaker.github.io/notes/linear_algebra/presentations/Vector_Spaces.html</loc>
-    <lastmod>2023-10-29T06:58:02.200Z</lastmod>
+    <loc>https://agoodshoemaker.github.io/music/song_0004.html</loc>
+    <lastmod>2023-12-31T15:44:24.779Z</lastmod>
   </url>
   <url>
-    <loc>https://agoodshoemaker.github.io/notes/linear_algebra/concepts/linear_dependence_independence.html</loc>
-    <lastmod>2023-10-29T06:58:02.560Z</lastmod>
+    <loc>https://agoodshoemaker.github.io/notes.html</loc>
+    <lastmod>2023-12-31T15:44:24.207Z</lastmod>
   </url>
   <url>
-    <loc>https://agoodshoemaker.github.io/notes/linear_algebra/concepts/vector_spaces.html</loc>
-    <lastmod>2023-10-29T06:58:03.260Z</lastmod>
+    <loc>https://agoodshoemaker.github.io/music/song_0002.html</loc>
+    <lastmod>2023-12-31T15:44:24.515Z</lastmod>
   </url>
   <url>
-    <loc>https://agoodshoemaker.github.io/notes/learning/process.html</loc>
-    <lastmod>2023-10-29T06:58:03.968Z</lastmod>
+    <loc>https://agoodshoemaker.github.io/music/song_0005.html</loc>
+    <lastmod>2023-12-31T15:44:25.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agoodshoemaker.github.io/music/song_0003.html</loc>
+    <lastmod>2023-12-31T15:44:25.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://agoodshoemaker.github.io/index.html</loc>
+    <lastmod>2023-12-31T15:44:26.063Z</lastmod>
   </url>
 </urlset>
